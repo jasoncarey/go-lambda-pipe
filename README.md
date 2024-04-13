@@ -20,6 +20,8 @@ go-lambda-pipe [command]
 
 ## Available Commands
 `invokeLambda` - invokes a lambda function with a JSON file event
+
 `processJson` - stringifies the body key of a JSON and writes to a new file
+
 `pipe` - invokes the `processJson` and `invokeLambda` command in succession
 
